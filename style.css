@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Global */
+
+body {
+    position: relative;
+    padding: 20px;
+    min-height: 100vh;
+    text-align: center;
+    overflow: overlay;
+    
+}
+
+h1 {
+    color: #949494;
+}
+
+input, 
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    background-color: #f0f0f0;
+    outline: none;
+    font-size: 1rem;
+}
+
+/* Page */
+
+.title-container {
+    display: flex;
+    height: calc(20vh - 20px);
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-generator {
+    display: flex;
+    width: 100%;
+    min-height: calc(80vh - 100px);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.form-wrapper,
+.countdown-wrapper {
+    padding: 0 30px;
+}
+
+.countdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+/* Form */
+
+.form-container {
+    width: 300px;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    line-height: 1.4rem;
+    margin: 15px 0 3px;
+    font-weight: 600;
+}
+
+button {
+    border: none;
+    background: #222;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+button:hover {
+    opacity: 0.8
+}
+
+button#submitBtn {
+    width: 100%;
+}
+
+label.check {
+    display: flex;
+    margin: 5px 0;
+    font-weight: 400;
+}
+label.check > * {
+    margin: auto 0;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Code export */
+
+.code-export-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 20px;
+}
+#code-export {
+    width: 100%;
+    min-height: 200px;
+    flex: 1;
+    font-size: 0.8rem;
+}

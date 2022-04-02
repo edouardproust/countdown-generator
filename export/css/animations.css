@@ -1,0 +1,7 @@
+.animate {
+    transform: translateY(-100%);
+    transition: translateY(0.2s);
+}
+.animate2 {
+    transform: translateY(0);
+}

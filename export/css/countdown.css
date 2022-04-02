@@ -1,0 +1,21 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.epc-container {
+    padding: 15px 10px 10px;
+    min-width: 90px;
+}
+.epc-digits-container {
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.epc-digits {
+    font-size: 3.2rem;
+    line-height: 2.6rem;
+}
+.epc-label {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
